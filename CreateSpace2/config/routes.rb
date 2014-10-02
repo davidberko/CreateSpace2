@@ -1,4 +1,8 @@
 CreateSpace2::Application.routes.draw do
+  get "users/new"
+
+  get "users/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
